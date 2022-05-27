@@ -1,0 +1,16 @@
+docker-compose up --build
+
+docker-compose down
+
+
+https://www.youtube.com/watch?v=2v9AKewyUEo&list=WL&index=65 
+
+
+
+
+http://localhost:8080/admin/airflow/task_stats?dag_ids=<dag_id>
+
+http://localhost:8080/api/experimental/dags/<dag_id>/paused/false    - set on from off
+http://localhost:8080/api/experimental/dags/<dag_id>/paused/true     - set off from on
+
+http://localhost:8080/api/experimental/dags/first_dag/paused/true
